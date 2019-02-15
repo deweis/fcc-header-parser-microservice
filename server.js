@@ -28,7 +28,9 @@ app.get('/api/hello', function(req, res) {
 
 // Get the header information
 app.get('/api/whoami', function(req, res) {
-  res.json({ ipaddress: req.ip });
+  res.json(res.json({ 
+    ipaddress:	req.ip,
+    language: req.headers['accept-language']});
 });
 
 // listen for requests :)
