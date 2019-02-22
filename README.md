@@ -6,7 +6,7 @@
 
 #### Example usage:
 
-- [Who am I?](https://fcc-request-header-parser-dw.glitch.me/api/whoami)
+- https://fcc-request-header-parser-dw.glitch.me/api/whoami
 
 #### Example output:
 
